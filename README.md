@@ -1,4 +1,6 @@
-# Yet Another Webpack Starter
+# Yet Another Webpack & React Starter
+
+>A fork of my [Webpack Starter](https://github.com/hedlund/starter-webpack).
 
 Including, but not limited to, the following:
 
@@ -8,6 +10,8 @@ Including, but not limited to, the following:
 * `eslint` for code hygiene
 * `mocha`, `chai` & `sinon` for testing
 * `istanbul` for code coverage
+* `react` including all necessary Babel plugins & HMR
+* `enzyme` for React testing
 
 ## Usage
 

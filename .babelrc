@@ -1,11 +1,19 @@
 {
   "presets": [
     "es2015",
+    "react",
     "stage-0"
   ],
   "plugins": [
     ["babel-root-import", {
       "rootPathSuffix": "src"
     }]
-  ]
+  ],
+  "env": {
+    "server": {
+      "presets": [
+        "react-hmre"
+      ]
+    }
+  }
 }

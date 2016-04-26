@@ -1,10 +1,12 @@
 import chai from 'chai';
+import chaiEnzyme from 'chai-enzyme';
 import sinonChai from 'sinon-chai';
 import { jsdom } from 'jsdom';
 
 
 // Configure chai
 
+chai.use(chaiEnzyme());
 chai.use(sinonChai);
 
 
