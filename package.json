@@ -9,9 +9,9 @@
     "build": "npm run build:prod",
     "build:prod": "cross-env NODE_ENV=production webpack --config webpack.config.build.js",
     "build:dev": "cross-env NODE_ENV=development webpack --config webpack.config.build.js",
-    "test": "cross-env NODE_ENV=test mocha --compilers js:babel-register --require test.config.js \"src/**/*.tests.@(js|jsx)\"",
+    "test": "cross-env NODE_ENV=test mocha --compilers js:babel-register --require ignore-styles --require test.config.js \"src/**/*.tests.@(js|jsx)\"",
     "test:watch": "npm run test -- --watch",
-    "test:coverage": "cross-env NODE_ENV=test istanbul cover _mocha -- --compilers js:babel-register --require test.config.js \"src/**/*.tests.@(js|jsx)\"",
+    "test:coverage": "cross-env NODE_ENV=test istanbul cover _mocha -- --compilers js:babel-register --require ignore-styles --require test.config.js \"src/**/*.tests.@(js|jsx)\"",
     "lint": "eslint src --ext .js --ext .jsx --cache || true"
   },
   "repository": {
@@ -44,6 +44,7 @@
     "eslint-plugin-import": "^1.6.0",
     "eslint-plugin-jsx-a11y": "^1.0.3",
     "eslint-plugin-react": "^5.0.1",
+    "ignore-styles": "^1.2.0",
     "istanbul": "^1.0.0-alpha.2",
     "jsdom": "^8.4.0",
     "json-loader": "^0.5.4",
