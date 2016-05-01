@@ -1,5 +1,5 @@
 {
-  "name": "starter-webpack",
+  "name": "starter-webpack-react",
   "version": "1.0.0",
   "description": "Yet another webpack & react starter...",
   "main": "src/index.jsx",
@@ -16,14 +16,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/hedlund/starter-webpack.git"
+    "url": "git+https://github.com/hedlund/starter-webpack-react.git"
   },
   "author": "Henrik Hedlund <henrik@hedlund.im>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/hedlund/starter-webpack/issues"
+    "url": "https://github.com/hedlund/starter-webpack-react/issues"
   },
-  "homepage": "https://github.com/hedlund/starter-webpack#readme",
+  "homepage": "https://github.com/hedlund/starter-webpack-react#readme",
   "devDependencies": {
     "autoprefixer": "^6.3.6",
     "babel-core": "^6.7.7",
